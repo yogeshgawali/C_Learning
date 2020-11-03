@@ -1,0 +1,6 @@
+#ifndef MULTIPLICATION_H_INCLUDED
+#define MULTIPLICATION_H_INCLUDED
+
+int multiplication(int,int);
+
+#endif // MULTIPLICATION_H_INCLUDED

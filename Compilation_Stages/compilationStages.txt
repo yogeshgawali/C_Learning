@@ -1,0 +1,55 @@
+compilation stages
+command: -- gcc -c yogesh.c yogesh1.c yogesh2.c yogesh3.c -o Final_out
+input  :  yogesh.c sum.c difference.c multiplication.c
+output :  yogesh.out
+		
+	 	Input    ----- (yogesh.c)
+									|
+    ===========Preprocessor============================
+		    |
+	1. header expand and include(declartion) 
+	2. macro expansion
+		- replaced by const value
+		- faster operation and easy to modify/changed logic
+	3. compile time
+		- enable/disable peice of code (variant ARm, X86)
+			#ifdef ARM_ENABLE
+			xxxxx
+			#else 
+			xxxxx
+			#endif
+	4. remove comment	
+		    |
+		    |    ----- (op - yogesh.i)
+		    |
+    =============Compiler==============================
+		    |
+	1. ASM conversion
+	2. start of routine
+		    |
+		    |    ----- (op - yogesh.s)
+		    |
+    ============Aseembler==============================
+		    |
+	1. Generates object files
+		- sum.o
+		- difference.o
+		- multiplication.o
+		    |
+		    |    ----- (op - yogesh.o)
+		    |
+    =============Linker=================================			
+		    |
+	1. symbol resolution
+	2. Relocation
+		- static linking
+		- dynamic linking	
+		    |
+		    |    ----- (op - yogesh.out)
+		    |					
+    =============Loader================================							
+	
+sum --100000		prinft---printf.so
+difference - 20000
+multiplication - 30000	
+									
