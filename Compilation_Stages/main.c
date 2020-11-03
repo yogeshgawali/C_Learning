@@ -8,8 +8,8 @@ int main()
     int result, a, b;
     printf("Enter a,b:");
     scanf("%d %d", &a, &b);
-    printf("Addition of %d and %d is %d", a, b, sum(a, b));
-    printf("Multiplication of %d and %d is %d", a, b, multiplication(a, b));
-    printf("Difference of %d and %d is %d", a, b, difference(a, b));
+    printf("Addition of %d and %d is %d\n", a, b, sum(a, b));
+    printf("Multiplication of %d and %d is %d\n", a, b, multiplication(a, b));
+    printf("Difference of %d and %d is %d\n", a, b, difference(a, b));
     return 0;
 }
