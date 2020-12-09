@@ -1,4 +1,4 @@
-compilation stages
+ompilation stages
 command: -- gcc -c yogesh.c yogesh1.c yogesh2.c yogesh3.c -o Final_out
 input  :  yogesh.c sum.c difference.c multiplication.c
 output :  yogesh.out
